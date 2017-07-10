@@ -1,0 +1,23 @@
+.new-user-modal-content {
+  text-align: center;
+}
+
+.new-user-modal-title {
+  margin-bottom: 40px;
+  color: purple;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.new-user-modal-button {
+  margin-top: 20px;
+}
+
+.new-user-input {
+  width: 350px;
+  margin: 10px;
+}
+
+.new-user-report-button {
+  margin: 20px;
+}

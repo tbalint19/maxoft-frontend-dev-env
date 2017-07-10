@@ -1,0 +1,33 @@
+.role-editor-content {
+  text-align: center;
+}
+
+.active-role-button {
+  background-color: blue;
+  color: white;
+  margin: 5px;
+  width: 150px;
+  font-size: 0.6em;
+  padding: 2px;
+}
+
+.inactive-role-button {
+  margin: 5px;
+  width: 150px;
+  font-size: 0.6em;
+  padding: 2px;
+}
+
+.role-edit-all-about {
+  display: flex;
+}
+
+.edit-role-title {
+  text-align: left;
+  color: purple;
+  padding-top: 20px;
+}
+
+.role-edit-user-info {
+  text-align: left;
+}

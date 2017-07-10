@@ -1,0 +1,39 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 2px;
+  width: 960px;
+}
+
+.footer-placeholder {
+  background-color: beige;
+  height: 20px;
+}
+
+.footer-controller {
+  border: 2px solid #999;
+  border-radius: 3px;
+  background-color: white;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hu {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  margin-right: 5px;
+  font-weight: bold;
+  height: 20px;
+  width: 36px;
+}
+
+#eng {
+  background: url(https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  width: 36px;
+}

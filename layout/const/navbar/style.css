@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 960px;
+  background-color: white;
+  z-index: 2;
+}
+
+.navbar-controller {
+  border-radius: 3px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #5bc0de;
+}
+
+.navbar-text {
+  padding: 5px;
+  color: blue;
+}
+
+.navbar-welcome {
+  padding: 7px;
+  color: black;
+  font-size: 0.8em;
+}
+
+.navbar-buttons {
+
+}
+
+.navbar-button {
+  font-family: 'Montserrat', cursive;
+  padding: 5px;
+  margin-left: 3px;
+  border: 0;
+  border-radius: 3px;
+  background-color: transparent;
+  box-shadow: inset 0 0 10px 3px beige;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navbar-button:hover {
+  box-shadow: inset 0 0 10px 3px #999;
+}
+
+.navbar-placeholder {
+  height: 20px;
+  background-color: white;
+}

@@ -1,0 +1,160 @@
+.users-header {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  top: 60px;
+  padding-bottom: 20px;
+  width: 960px;
+}
+
+.user-list {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 150px;
+}
+
+.users-header-first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.users-header-buttons {
+  display: flex;
+  padding: 10px;
+}
+
+.users-header-second-row {
+  text-align: right;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.users-header-second-row p {
+  margin: 0;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.new-user {
+  margin-left: 20px;
+}
+
+.filter-button {
+  border-radius: 3px 0 0 3px;
+  border-right: 1px dashed #5bc0de;
+}
+
+.filter-delete-button {
+  border-radius: 0 3px 3px 0;
+  border-left: 0;
+  color: #d9534f;
+}
+
+#table-username {
+  text-align: left;
+}
+
+.users-logo {
+  color: purple;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.users-title {
+  color: black;
+  font-size: 0.8em;
+}
+
+.search-bars {
+  display: flex;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 25px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.search-bar-input {
+  padding: 2px;
+  text-align: center;
+  border: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 0px;
+}
+
+.search-bar-input:focus {
+  box-shadow: inset 0 0 10px #5bc0de;
+}
+
+.user-row {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.user-row:hover {
+  color: purple;
+  font-weight: bold;
+  border-top: 1px solid beige;
+  border-bottom: 1px solid beige;
+}
+
+.user-row div {
+  padding: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid white;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.align-left-col {
+  text-align: left !important;
+}
+
+.users-create-button {
+  font-size: 0.9em;
+  font-family: 'Montserrat', cursive;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-decoration: underline;
+  color: blue;
+  width: 170px;
+}
+
+.users-create-button:hover {
+  box-shadow: 0 0 1px 0px #5bc0de;
+}
+
+.users-edit-button {
+  font-size: 0.9em;
+  font-family: 'Montserrat', cursive;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #5bc0de;
+  border-radius: 3px;
+  color: blue;
+  width: 125px;
+  margin-left: 35px;
+  box-shadow: 0 0 5px 0px #5bc0de;
+}
+
+.users-edit-button:hover {
+  box-shadow: 0 0 2px 0px #5bc0de;
+}
+
+.users-edit-placeholder-button {
+  font-size: 0.9em;
+  font-family: 'Montserrat', cursive;
+  background-color: white;
+  border: 1px solid #999;
+  border-radius: 3px;
+  color: #999;
+  width: 125px;
+  margin-left: 35px;
+  box-shadow: 0 0 5px 0px #999;
+}

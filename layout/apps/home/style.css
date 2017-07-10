@@ -1,0 +1,43 @@
+.main-controller {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.options-logo {
+  color: purple;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.option {
+  border: 1px solid purple;
+  border-radius: 3px;
+  width: 150px;
+}
+
+.icon-place {
+  background-color: beige;
+  color: purple;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.controll-place {
+  padding-bottom: 20px;
+}
+
+.controller {
+  text-align: right;
+}
+
+.controller-button {
+  width: 150px;
+  margin-top: 20px;
+  margin-right: 50px;
+}

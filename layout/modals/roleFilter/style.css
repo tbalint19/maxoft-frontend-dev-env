@@ -1,0 +1,47 @@
+.role-filter-content {
+  text-align: center;
+}
+
+.active-filter-role {
+  background-color: #5bc0de;
+  color: white;
+  margin: 7px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive-filter-role {
+  background-color: white;
+  color: #5bc0de;
+  margin: 7px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.role-row-button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: blue;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.selected-role-filter {
+  background-color: blue;
+  color: white;
+}
+
+.unselected-role-filter {
+  background-color: white;
+  color: blue;
+}
+
+.role-filter-title {
+  color: purple;
+  text-align: left;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}

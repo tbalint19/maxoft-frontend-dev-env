@@ -1,0 +1,42 @@
+.login {
+  width: 440px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.login-logo {
+  color: purple;
+}
+
+.login-input {
+  margin: 25px;
+  margin-bottom: 0px;
+}
+
+.forgotten {
+  margin-top: 2px;
+  padding: 0;
+}
+
+.login-button {
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+
+.login-error {
+  height: 25px;
+  text-align: center;
+}
+
+.login-error-text {
+  color: red;
+}
+
+.login-wait-text {
+  color: blue;
+}
+
+.login-input {
+  width: 350px;
+}
